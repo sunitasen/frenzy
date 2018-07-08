@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie|Dancing+Script|Great+Vibes|Wendy+One');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Yesteryear');
+.headimage {
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)),url('../../Media/IMG-20180707-WA0003.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Monoton', cursive;
+    font-size: 3.5em;
+    color: #28040c;
+    position: relative;
+    transition-delay:3ms ease-in;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.likes{
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.5em;
+    text-align: left;
+}
+.poemimage {
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)),url("https://static.tumblr.com/722b5c952b83fc6178ffe893919c8a36/1qvnaao/LPbonz67z/tumblr_static_tumblr_static__640.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    transition-delay:3ms ease-in;
+    background-attachment: fixed;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 6em;
+    text-align: center;
+    background-size: cover;   
+}
+
+.contentimage {
+    background: linear-gradient(rgba(250, 250, 250, 0.795), rgba(250, 255, 255, 0.678)),url("https://previews.123rf.com/images/lava4images/lava4images1401/lava4images140100014/25503276-japanische-b%C3%BCttenpapier-textur.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 6em;
+    transition-delay:3ms ease-in;
+    background-attachment: fixed;
+    background-size: cover;   
+}
+
+.abouthead{
+    font-family: 'Arvo', serif;
+    font-size: 2em;
+}
+
+.aboutbody{
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)),url('http://www.textures4photoshop.com/tex/thumbs/cute-cartoon-clouds-seamless-pattern-thumb36.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Monoton', cursive;
+    font-size: 7em;
+    color: black;
+    position: relative;
+    transition-delay:3ms ease-in;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 3em;
+
+}
+
+.poems{
+    font-family: 'Cookie', cursive;
+}
+
+.poetess{
+    font-family: 'Dancing Script', cursive;
+}
+
+.microtaleimage {
+    background: linear-gradient(rgba(250, 250, 250, 0.336), rgba(250, 255, 255, 0.295)),url("http://helpwritingessays.net/p/2018/06/girl-writing-in-diary-tumblr-kind-of-letters-for-girl-writing-in-diary-tumblr.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 4em;
+    transition-delay:3ms ease-in;
+    background-attachment: fixed;
+    background-size: cover;   
+}
+
+.articleimage {
+    background: linear-gradient(rgba(250, 250, 250, 0.336), rgba(250, 255, 255, 0.295)),url("https://snapretail.com/wp-content/uploads/2013/08/126-Pinterest-Marketing-How-to-Measure-Your-Success.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 5em;
+    position: relative;
+    transition-delay:3ms ease-in;
+    background-attachment: fixed;
+    background-size: cover;   
+}
+
+.love{
+    height: 40px;
+    border-radius: 35%;
+    align-content: flex-start;
+}
+
+.wide{
+    max-width: 45em;
+}
+
+.wide1{
+    max-width: 55em;
+}
