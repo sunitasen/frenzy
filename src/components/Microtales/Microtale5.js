@@ -11,7 +11,7 @@ class Microtale1 extends React.Component {
             count: '',
         };
 
-        fetch('http://localhost:3003/im',{                      
+        fetch('https://serene-thicket-96755.herokuapp.com/im',{                      
             method: 'put',
             headers:{'Content-Type' : 'application/json'},
             body: JSON.stringify({
@@ -34,7 +34,7 @@ class Microtale1 extends React.Component {
         });
         if(this.state.liked === false){
             //this.setState({count : this.state.count+1})            
-            fetch('http://localhost:3003/image',{                      
+            fetch('https://serene-thicket-96755.herokuapp.com/image',{                      
                 method: 'put',
                 headers:{'Content-Type' : 'application/json'},
                 body: JSON.stringify({
@@ -49,7 +49,7 @@ class Microtale1 extends React.Component {
         console.log(Number(this.state.count))
         if(this.state.liked === true){
             // this.setState({count : this.state.count-1})
-            fetch('http://localhost:3003/img',{                      
+            fetch('https://serene-thicket-96755.herokuapp.com/img',{                      
                 method: 'put',
                 headers:{'Content-Type' : 'application/json'},
                 body: JSON.stringify({
